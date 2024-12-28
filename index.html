@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Legal Activitise Sisuation</title>
+	<!-- font poppins  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<!-- tailwind and dasiy cdn -->
+
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- font awsome icon cdn-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--  -->
+	<style>
+		.font-poppins {
+			font-family: "Poppins", serif;
+		}
+	</style>
+
+	<!--  -->
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						clifford: '#da373d',
+						'backgroud-Image': "url('./images/banner.png')",
+					},
+				},
+			},
+		}
+	</script>
+	<style>
+		.bg-my-img {
+			background-image: url('./images/banner.png');
+			background-size: cover;
+		}
+
+		.bg-banner-slider1 {
+			background-image: url('./images/slider-1.jpg');
+			width: 100%;
+
+
+			background-size: cover;
+
+		}
+	</style>
+
+
+
+
+
+</head>
+
+<body class="font-poppins">
+	<!-- header section -->
+	<header class="container mx-auto">
+		<div class="navbar bg-base-100 my-8">
+			<div class="navbar-start">
+				<div class="dropdown">
+					<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+							stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M4 6h16M4 12h8m-8 6h16" />
+						</svg>
+					</div>
+					<ul tabindex="0"
+						class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+						<li><a>Home </a></li>
+						<li><a>Service </a></li>
+						<li><a>Block </a></li>
+						<li><a>Contact Us </a></li>
+						<li><a>Help </a></li>
+
+					</ul>
+				</div>
+				<a class="btn btn-ghost text-xl"><img src="./images/logo2.png" alt=""> </a>
+			</div>
+			<div class="navbar-center hidden lg:flex">
+				<ul class="menu menu-horizontal px-1">
+					<li><a>Home </a></li>
+					<li><a>Service </a></li>
+					<li><a>Block </a></li>
+					<li><a>Contact Us </a></li>
+					<li><a>Help </a></li>
+
+				</ul>
+			</div>
+			<div class="navbar-end">
+				<a class="btn">Free Consultetion</a>
+			</div>
+		</div>
+		<!-- banner -->
+		<section>
+			<div class="bg-my-img w-full h-[500px] bg-cover mx-auto  relative">
+				<div
+					class="w-[80%] sm:w-[90%] md:w-[80%] lg:w-[619px] mx-auto text-center absolute left-1/2 transform -translate-x-1/2 mt-32 space-y-3">
+					<h1 class="font-extrabold text-3xl sm:text-4xl md:text-5xl text-white">We Provide Effective Legal
+						Solutions</h1>
+					<p class="text-gray-500 text-sm sm:text-base md:text-lg">"Effective solution" refers to a result that thoroughly addresses the problem, is efficient, high-quality, and meets the client's needs while exceeding their expectations.</p>
+					<div class="mt-3 space-y-2 sm:space-y-0 sm:flex sm:space-x-2 sm:justify-center">
+						<input class="input input-bordered w-full sm:w-auto max-w-xs" placeholder="search your Service"
+							type="text" value="">
+						<button class="btn sm:w-auto">Search</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</header>
+
+
+	<!-- main section -->
+	<main class="container mx-auto mt-3 lg:mt-24">
+		<section>
+			<div class="text-center space-y-2 lg:p-0 p-8">
+				<h1 class="text-3xl font-bold">The Legal Practice Area</h1>
+				<p class="text-gray-600">There are many variations of passages of Lorem Ipsum available, but the
+					majority have <br> suffered
+					alteration in some form, by injected humour.</p>
+			</div>
+			<!-- card  -->
+			<div class="grid grid-cols-1 lg:grid-cols-3 lg:my-10 my-4 gap-6 lg:p-4 p-4">
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/business.png" alt="">
+					</div>>
+					<h2 class="font-bold text-2xl my-3">Business Law</h2>
+					<p class="text-gray-500 ">Business law governs contracts, transactions, intellectual property, company formation, and dispute resolution.  </p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/criminal.png" alt="">
+					</div>>
+					<h2 class="font-bold text-2xl my-3">Criminal Law</h2>
+					<p class="text-gray-500"> Criminal law deals with actions deemed harmful to society, such as theft, assault, or murder. It outlines punishments for .</p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/child.png" alt="">
+					</div>>
+					<h2 class="font-bold text-2xl my-3">Child Support</h2>
+					<p class="text-gray-500"> Child support is a financial obligation by one parent to assist in the upbringing of their child after separation ruls object. </p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/education.png" alt="">
+					</div>>
+					<h2 class="font-bold text-2xl my-3">Education Law</h2>
+					<p class="text-gray-500"> Education law focuses on the legal rights of students and the responsibilities of educational institutions and environment </p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/divorce.png" alt="">
+					</div>>
+					<h2 class="font-bold text-2xl my-3">Divorce Law</h2>
+					<p class="text-gray-500">Divorce law governs the legal dissolution of marriage, including issues like property division, spousal support, child custod.</p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+				<div class="text-center border lg:py-10 py-3 lg:px-20 px-6 hover:bg-gray-100 rounded-xl">
+					<div class="text-center flex items-center justify-center"> <img src="./images/tax.png" alt=""></div>
+					>
+					<h2 class="font-bold text-2xl my-3">Tax Law</h2>
+					<p class="text-gray-500">Tax law regulates the collection of taxes by the government. It covers income, property, and corporate taxes, outlining position. </p>
+					<div class="lg:mt-6 mt-4 flex justify-center"><img src="./images/Frame.png" alt=""></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- our clint say -->
+
+		<section class="lg:mt-14 mt-8">
+			<div class="text-center space-y-2 lg:p-0 p-8">
+				<h1 class="text-3xl font-bold">What Our Client Says</h1>
+				<p class="text-gray-600">When a client receives the finished work just 20 minutes later than the agreed time, they may express <br>
+					various responses depending on their expectations, the nature of the project, and their satisfaction with the result. <br>
+				   alteration in some form, by injected humour.</p>
+		   </div>
+
+		   <!-- carosul section -->
+		   <div class="my-8">
+			   <div class="carousel w-full ">
+				   <!-- slider1 -->
+
+				   <div id="slide1" class="carousel-item relative w-full">
+					   <div style="background-image: url('./images/slider-1.jpg');
+					   background-size: cover;
+					   width:100%;
+					   background-repeat: no-repeat;
+						
+					   max-width: fit-content;
+					  " class="">
+
+						   <div class="text-white text-center py-4 lg:py-16 px-4 lg:px-44 space-y-3">
+							   <img class="w-24 mx-auto" src="./images/user-1.png" alt="">
+							   <h1 class="font-extrabold text-2xl lg:text-3xl">Chondon Roy</h1>
+							   <small class="text-fuchsia-500">Web Developer</small>
+							   <p class="">
+								   Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+								   piece of classical Latin literature from 45 BC, making it over 2000 years old.
+								   Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
+								   up one of the more obscure Latin words, consectetur.
+							   </p>
+						   </div>
+
+					   </div>
+
+					   <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+						   <a href="#slide3" class="btn btn-circle">❮</a>
+						   <a href="#slide2" class="btn btn-circle">❯</a>
+					   </div>
+				   </div>
+
+
+
+				   <!-- slider2 -->
+				   <div id="slide2" class="carousel-item relative w-full">
+					   <div style="background-image: url('./images/slider-2.jpg');
+						   background-size: cover;
+						   width:100%;
+						   background-repeat: no-repeat;
+							
+						   max-width: fit-content;
+						  " class="">
+
+						   <div class="text-white text-center py-4 lg:py-16 px-4 lg:px-44 space-y-3">
+							   <img class="w-24 mx-auto" src="./images/user-1.png" alt="">
+							   <h1 class="font-extrabold text-3xl">Chondon Roy</h1>
+							   <small class="text-fuchsia-500">Web Developer</small>
+							   <p class="">
+								   Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+								   in a
+								   piece of classical Latin literature from 45 BC, making it over 2000 years old.
+								   Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+								   looked
+								   up one of the more obscure Latin words, consectetur.
+							   </p>
+						   </div>
+
+					   </div>
+					   <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+						   <a href="#slide1" class="btn btn-circle">❮</a>
+						   <a href="#slide3" class="btn btn-circle">❯</a>
+					   </div>
+				   </div>
+
+				   <!-- slider1 -->
+
+				   <div id="slide3" class="carousel-item relative w-full">
+					   <div id="slide1" class="carousel-item relative w-full">
+						   <div style="background-image: url('./images/slider-3.jpg');
+						   background-size: cover;
+						   width:100%;
+						   background-repeat: no-repeat;
+							
+						   max-width: fit-content;
+						  " class="">
+
+							   <div class="text-white text-center py-4 lg:py-16 px-4 lg:px-44 space-y-3">
+								   <img class="w-24 mx-auto" src="./images/user-1.png" alt="">
+								   <h1 class="font-extrabold text-3xl">Chondon Roy</h1>
+								   <small class="text-fuchsia-500">Web Developer</small>
+								   <p>
+									   Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+									   in a
+									   piece of classical Latin literature from 45 BC, making it over 2000 years old.
+									   Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+									   looked
+									   up one of the more obscure Latin words, consectetur.
+								   </p>
+							   </div>
+
+						   </div>
+						   <div
+							   class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+							   <a href="#slide2" class="btn btn-circle">❮</a>
+							   <a href="#slide1" class="btn btn-circle">❯</a>
+						   </div>
+					   </div>
+
+				   </div>
+
+	   </section>
+
+	   <!-- question section -->
+
+	   <section>
+		   <div class="text-center space-y-2 mt-8 lg:mt-16 px-4 lg:px-56">
+			   <h1 class="font-extrabold text-3xl">Frequently Asked Any Questions</h1>
+			   <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the
+				   majority have suffered alteration in some form, by injected humour.</p>
+		   </div>
+
+		   <div
+			   class=" flex lg:flex-row flex-col px-4 lg:px-0 gap-8 justify-center items-center align-middle lg:mt-16 ">
+			   <!-- text content -->
+			   <div class="space-y-4 lg:w-2/3 ">
+				   <div class="collapse collapse-plus bg-base-200 ">
+					   <input type="radio" name="my-accordion-3" />
+					   <div class="collapse-title text-xl font-medium">what is the justices ..?justices mean?</div>
+					   <div class="collapse-content">
+						   <p>Justice refers to fairness, equality, and moral rightness in upholding laws, rights, and ethics. It ensures everyone gets what they deserve without bias, maintaining societal balance and protecting individual freedoms. </p>
+					   </div>
+				   </div>
+				   <div class="collapse collapse-plus bg-base-200 ">
+					   <input type="radio" name="my-accordion-3" />
+					   <div class="collapse-title text-xl font-medium">why we respect  to justices?</div>
+					   <div class="collapse-content">
+						   <p>We respect justice because it upholds fairness, ensures equality, protects rights, and maintains societal order. It fosters trust, harmony, and accountability, creating a safe environment where everyone is treated with dignity and fairness. </p>
+					   </div>
+				   </div>
+				   <div class="collapse collapse-plus bg-base-200 ">
+					   <input type="radio" name="my-accordion-3" />
+					   <div class="collapse-title text-xl font-medium">how can we declear good and bad man?</div>
+					   <div class="collapse-content">
+						   <p>We can differentiate good and bad individuals by their actions, intentions, and impact on others. Good people act with kindness, honesty, and integrity, while bad individuals often harm others, act selfishly, or violate ethical principles. </p>
+					   </div>
+				   </div>
+				   <div class="collapse collapse-plus bg-base-200 ">
+					   <input type="radio" name="my-accordion-3" />
+					   <div class="collapse-title text-xl font-medium">what is the Bangladesh  political 2024?</div>
+					   <div class="collapse-content">
+						   <p>In 2024, Bangladesh experienced significant political upheaval. Massive student-led protests led to the resignation of Prime Minister Sheikh Hasina, ending her 15-year rule. 
+							   SOUTH ASIAN VOICES
+								An interim government, led by Nobel laureate Muhammad Yunus, was established to guide the nation through this transitional period.  </p>
+					   </div>
+				   </div>
+				   <div class="collapse collapse-plus bg-base-200 ">
+					   <input type="radio" name="my-accordion-3" />
+					   <div class="collapse-title text-xl font-medium">How can we live essentialy in Bangladesh?</div>
+					   <div class="collapse-content">
+						   <p>Work and Career:
+							   Freelancing or online work: As digital access grows, freelancing or remote work is becoming a viable option to earn a living with flexibility.
+							   Agriculture or small businesses: In rural areas, engaging in agriculture or starting a small-scale business can be a sustainable livelihood. </p>
+					   </div>
+				   </div>
+			   </div>
+			   <!-- img content -->
+			   <div class="mt-2">
+				   <div><img src="./images/faq.png" alt=""></div>
+			   </div>
+		   </div>
+
+
+	   </section>
+
+	   <!-- contact section -->
+
+	   <section>
+		   <div class="text-center px-4 py-8 lg:pt-20 lg:px-56">
+			   <h1 class="text-3xl font-extrabold"> Contact With Us</h1>
+			   <p class=" text-gray-700">
+				There are maney political issu in Bangladesh.Many bad people victim to dengerous thing <br>
+				So we are carefully for our life and family member
+			   </p>
+		   </div>
+
+		   <div class="flex lg:px-0 px-4 flex-col lg:flex-row gap-4 justify-center">
+			   <!-- div1 -->
+			   <div class=" flex-1 w-full  lg:w-1/2 mx-auto grid space-y-2 lg:space-y-0 lg:grid-cols-2 ">
+				   <div class="text-center border  h-48 mx-auto lg:py-5 py-3 lg:px-20 px-6 hover:bg-gray-100 ">
+					   <div class="text-center flex items-center justify-center"> <img src="./images/location.png.png"
+							   alt="">
+					   </div>
+					   <h2 class="font-bold text-2xl my-2">Address</h2>
+					   <p class="text-gray-500 ">A108 Adam Street,
+						   Dhaka Bangladesh</p>
+
+				   </div>
+				   <div class="text-center border h-48 mx-auto lg:py-5 py-3 lg:px-20 px-6 hover:bg-gray-100 
+				   ">
+					   <div class="text-center flex items-center justify-center"> <img src="./images/email.png.png"
+							   alt="">
+					   </div>
+					   <h2 class="font-bold text-2xl my-2">Email Us</h2>
+					   <p class="text-gray-500 ">A108 chondon,
+						   regular ch7870@gmail</p>
+
+				   </div>
+				   <div class="text-center border h-48 mx-auto lg:py-5 py-3 lg:px-20 px-6 hover:bg-gray-100 ">
+					   <div class="text-center flex items-center justify-center"> <img src="./images/call.png" alt="">
+					   </div>
+					   <h2 class="font-bold text-2xl my-2">Call Us</h2>
+					   <p class="text-gray-500 ">A108 Adam Street,
+						   Nessesery 01302220150</p>
+
+				   </div>
+				   <div class="text-center border h-48 mx-auto lg:py-5 py-3 lg:px-20 px-6 hover:bg-gray-100 ">
+					   <div class="text-center flex items-center justify-center"> <img src="./images/time.png" alt="">
+					   </div>
+					   <h2 class="font-bold text-1xl my-2">Working Hours</h2>
+					   <p class="text-gray-500 ">A108 Adam Street,
+						   All time resurve, Recorded</p>
+
+				   </div>
+			   </div>
+
+
+
+
+			   <!-- div2 -->
+			   <div class=" flex-1 lg-px-0 px-4 gap-2 space-y-10">
+				   <div class="h-6 ">
+					   <input type="text" placeholder="Your Name " class="input input-bordered w-full " />
+				   </div>
+
+				   <div class="h-6 flex flex-left justify-center">
+					   <input type="text" placeholder="Subject" class="input input-bordered w-full " />
+				   </div>
+
+				   <div class="h-6 flex flex-left justify-center">
+					   <input type="email" placeholder="Email" class="input input-bordered w-full " />
+				   </div>
+
+				   <textarea placeholder="Your Message"
+					   class="textarea textarea-bordered textarea-lg w-full  "></textarea>
+				   <div class=""> <button class="btn btn-active btn-primary w-full">Message</button></div>
+			   </div>
+
+		   </div>
+	   </section>
+
+   </main>
+   <!-- footer section -->
+   
+   <footer class="bg-base-200 text-base-content mt-16 p-10">
+	   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+		  <aside class="text-center sm:text-left">
+		   <div class="flex justify-center sm:justify-start items-center gap-2">
+			 <img class="h-6" src="./images/business.png" alt="Business Logo">
+			 <h1><span class="font-bold text-2xl">Justics</span></h1>
+		   </div>
+		   <p class="mt-4 text-sm text-gray-600">
+			 There are many variations of passages of Lorem Ipsum available, but the majority have
+			 suffered alteration in some form, by injected humour.
+		   </p>
+		 </aside>
+	 
+		  
+		 <nav class="text-center sm:text-left">
+		   <h6 class="footer-title font-bold mb-4">Home</h6>
+		   <ul class="space-y-2">
+			 <li><a href="#" class="link link-hover">Service</a></li>
+			 <li><a href="#" class="link link-hover">Block</a></li>
+			 <li><a href="#" class="link link-hover">Contact Us</a></li>
+			 <li><a href="#" class="link link-hover">Help</a></li>
+		   </ul>
+		 </nav>
+	  
+		 <nav class="text-center sm:text-left">
+		   <h6 class="footer-title font-bold mb-4">Company</h6>
+		   <p class="text-sm text-gray-600">
+			 555 4th 5t NW, Washington <br> DC 20530, United States
+		   </p>
+		   <p class="mt-2 text-sm text-gray-600">
+			 +01302220150 <br> 096587435258
+		   </p>
+		   <p class="mt-2 text-sm text-gray-600">ch7870@gmail.com</p>
+		 </nav>
+	 
+		  <nav class="text-center sm:text-left">
+		   <h6 class="footer-title font-bold mb-4">Legal</h6>
+		   <p class="text-sm text-gray-600">
+			 Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails
+		   </p>
+		   <div class="flex items-center mt-4 rounded-lg overflow-hidden border border-gray-300">
+			 <input 
+			   type="text" 
+			   placeholder="Email Address" 
+			   class="flex-grow px-4 py-2 text-sm outline-none text-gray-700 placeholder-gray-400"
+			 />
+			 <button class="px-4 flex items-center justify-center">
+			   <img src="./images/Frame.png" alt="Send Icon" class="w-5 h-5">
+			 </button>
+		   </div>
+		 </nav>
+	   </div>
+	 </footer>
+	 
+
+
+</body>
+
+</html>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
